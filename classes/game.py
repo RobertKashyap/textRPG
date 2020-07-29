@@ -51,21 +51,21 @@ class Person:
     def reduce_mp(self,cost):
         self.mp -= cost
 
-    def get_spell_name(self,i)
+    def get_spell_name(self,i):
         self.magic[i]['cost']
     
     def choose_action(self):
         i = 1
         print('ACTIONS')
-        for item self.actions:
-            print(str[i]+' :',item)
+        for item in self.actions:
+            print(i,' :',item)
             i += 1
     
     def choose_magic(self):
         print('MAGIC')
         i = 1
-        for spell self.magic:
-            print(str[i]+' :',spell['name'],'(cost :',str(spell[cost])+')')
+        for spell in self.magic:
+            print(i,' :',spell['name'],'(cost :',spell[cost],')')
             i += 1
     
         
